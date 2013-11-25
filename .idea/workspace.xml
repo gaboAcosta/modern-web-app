@@ -21,7 +21,7 @@
     <file path="$PROJECT_DIR$/../modern-web-app-template/app/tests/models/UserTest.php" changelist="cadaac52-1b6d-4ae9-a013-c7fb74ff584d" time="1385135255525" ignored="false" />
     <file path="/UserTest.php" changelist="cadaac52-1b6d-4ae9-a013-c7fb74ff584d" time="1385134995500" ignored="false" />
     <file path="/private/var/folders/rt/g_hysb_546d3kpl6m81fzjf80000gn/T/fz3temp-1/index.php" changelist="cadaac52-1b6d-4ae9-a013-c7fb74ff584d" time="1385143560682" ignored="false" />
-    <file path="/readme.md" changelist="cadaac52-1b6d-4ae9-a013-c7fb74ff584d" time="1385392503443" ignored="false" />
+    <file path="/readme.md" changelist="cadaac52-1b6d-4ae9-a013-c7fb74ff584d" time="1385392738510" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +44,7 @@
       <file leaf-file-name="readme.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/readme.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="61" selection-start="104" selection-end="104" vertical-scroll-proportion="0.05154639">
+            <state line="2" column="63" selection-start="106" selection-end="106" vertical-scroll-proportion="0.05154639">
               <folding />
             </state>
           </provider>
@@ -322,7 +322,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="61" selection-start="104" selection-end="104" vertical-scroll-proportion="0.05154639">
+        <state line="2" column="63" selection-start="106" selection-end="106" vertical-scroll-proportion="0.05154639">
           <folding />
         </state>
       </provider>
