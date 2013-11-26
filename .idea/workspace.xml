@@ -5,7 +5,7 @@
     <ignored path="modern-web-app.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/hello.php" changelist="cadaac52-1b6d-4ae9-a013-c7fb74ff584d" time="1384876075560" ignored="false" />
-    <file path="/routes.php" changelist="cadaac52-1b6d-4ae9-a013-c7fb74ff584d" time="1385049129199" ignored="false" />
+    <file path="/routes.php" changelist="cadaac52-1b6d-4ae9-a013-c7fb74ff584d" time="1385479002670" ignored="false" />
     <file path="/Post.php" changelist="cadaac52-1b6d-4ae9-a013-c7fb74ff584d" time="1384875922671" ignored="false" />
     <file path="/HomeController.php" changelist="cadaac52-1b6d-4ae9-a013-c7fb74ff584d" time="1384875954092" ignored="false" />
     <file path="/hello.blade.php" changelist="cadaac52-1b6d-4ae9-a013-c7fb74ff584d" time="1384876084673" ignored="false" />
@@ -22,6 +22,13 @@
     <file path="/UserTest.php" changelist="cadaac52-1b6d-4ae9-a013-c7fb74ff584d" time="1385134995500" ignored="false" />
     <file path="/private/var/folders/rt/g_hysb_546d3kpl6m81fzjf80000gn/T/fz3temp-1/index.php" changelist="cadaac52-1b6d-4ae9-a013-c7fb74ff584d" time="1385143560682" ignored="false" />
     <file path="/readme.md" changelist="cadaac52-1b6d-4ae9-a013-c7fb74ff584d" time="1385392738510" ignored="false" />
+    <file path="/main.js" changelist="cadaac52-1b6d-4ae9-a013-c7fb74ff584d" time="1385480927759" ignored="false" />
+    <file path="/a.xml" changelist="cadaac52-1b6d-4ae9-a013-c7fb74ff584d" time="1385477851739" ignored="false" />
+    <file path="/a.js" changelist="cadaac52-1b6d-4ae9-a013-c7fb74ff584d" time="1385477917001" ignored="false" />
+    <file path="/a.html" changelist="cadaac52-1b6d-4ae9-a013-c7fb74ff584d" time="1385477904405" ignored="false" />
+    <file path="/bower.json" changelist="cadaac52-1b6d-4ae9-a013-c7fb74ff584d" time="1385477970810" ignored="false" />
+    <file path="/home.php" changelist="cadaac52-1b6d-4ae9-a013-c7fb74ff584d" time="1385479746666" ignored="false" />
+    <file path="/main.html" changelist="cadaac52-1b6d-4ae9-a013-c7fb74ff584d" time="1385480419681" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,19 +48,75 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="readme.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/readme.md">
+      <file leaf-file-name="home.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/admin/home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="63" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0">
+            <state line="63" column="23" selection-start="2378" selection-end="2378" vertical-scroll-proportion="-17.083334">
+              <folding>
+                <element signature="e#6#72#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="karma.conf.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/karma.conf.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="26" selection-start="726" selection-end="745" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gruntfile.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/Gruntfile.js">
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/app/scripts/controllers/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="293" column="12" selection-start="7094" selection-end="7094" vertical-scroll-proportion="0.33213645">
+            <state line="5" column="74" selection-start="110" selection-end="162" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/test/spec/controllers/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="5" selection-start="500" selection-end="500" vertical-scroll-proportion="0.5903399">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/app/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="0" selection-start="1143" selection-end="3610" vertical-scroll-proportion="-16.875">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/app/scripts/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="22" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/app/views/main.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="22" selection-start="264" selection-end="264" vertical-scroll-proportion="-4.375">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/routes.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="33" selection-start="522" selection-end="522" vertical-scroll-proportion="-6.25">
               <folding />
             </state>
           </provider>
@@ -75,10 +138,16 @@
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestCase.php" />
         <option value="$PROJECT_DIR$/app/views/hello.blade.php" />
-        <option value="$PROJECT_DIR$/app/routes.php" />
         <option value="$PROJECT_DIR$/app/controllers/UserController.php" />
         <option value="$PROJECT_DIR$/app/tests/controllers/UserControllerTest.php" />
         <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/public/bower.json" />
+        <option value="$PROJECT_DIR$/app/routes.php" />
+        <option value="$PROJECT_DIR$/app/views/admin/home.php" />
+        <option value="$PROJECT_DIR$/public/app/scripts/app.js" />
+        <option value="$PROJECT_DIR$/public/app/views/main.html" />
+        <option value="$PROJECT_DIR$/public/app/scripts/controllers/main.js" />
+        <option value="$PROJECT_DIR$/public/test/spec/controllers/main.js" />
       </list>
     </option>
   </component>
@@ -197,10 +266,10 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="editor.preferences.appearance" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../delcaboeventdesign" />
-    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.lastSelected" value="preferences.sourceCode.JavaScript" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HRDM/laravel" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -229,7 +298,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24961479" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25577813" sideWeight="0.99572647" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25885978" sideWeight="0.96038544" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32973805" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -306,77 +375,14 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="172" column="64" selection-start="6867" selection-end="6919" vertical-scroll-proportion="0.4827586" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Routing/Router.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="648" column="0" selection-start="15789" selection-end="15789" vertical-scroll-proportion="0.028735632" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/Route.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="66" selection-start="656" selection-end="662" vertical-scroll-proportion="0.77011496" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestCase.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="352" column="22" selection-start="7904" selection-end="7904" vertical-scroll-proportion="0.72477067" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/tests/ExampleTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="41" selection-start="187" selection-end="199" vertical-scroll-proportion="-6.875" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="45" selection-start="557" selection-end="557" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="30" selection-start="124" selection-end="124" vertical-scroll-proportion="0.06802721" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/UserController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="0" selection-start="1293" selection-end="1293" vertical-scroll-proportion="0.79591835" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/tests/controllers/UserControllerTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="144" column="35" selection-start="3370" selection-end="3370" vertical-scroll-proportion="0.6938776" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="679" column="71" selection-start="24134" selection-end="24176" vertical-scroll-proportion="0.4154412">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="34" selection-start="172" selection-end="172" vertical-scroll-proportion="0.16129032">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="7" selection-start="31" selection-end="31" vertical-scroll-proportion="0.025773196">
-          <folding />
-        </state>
+        <state line="1" column="7" selection-start="31" selection-end="31" vertical-scroll-proportion="0.025773196" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="35" selection-end="55" vertical-scroll-proportion="0.10309278">
-          <folding />
-        </state>
+        <state line="4" column="0" selection-start="35" selection-end="55" vertical-scroll-proportion="0.10309278" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/readme.md">
@@ -386,16 +392,95 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/test/spec/controllers/main.js">
+    <entry file="file://$PROJECT_DIR$/public/Gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="505" selection-end="505" vertical-scroll-proportion="0.5670103">
+        <state line="293" column="12" selection-start="7094" selection-end="7094" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/Gruntfile.js">
+    <entry file="file://$PROJECT_DIR$/public/app/bower_components/angular-mocks/angular-mocks.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="293" column="12" selection-start="7094" selection-end="7094" vertical-scroll-proportion="0.33213645">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="27" selection-start="290" selection-end="290" vertical-scroll-proportion="0.2956989">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="33" selection-start="522" selection-end="522" vertical-scroll-proportion="-6.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/tests/controllers/UserControllerTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="119" column="30" selection-start="2754" selection-end="2754" vertical-scroll-proportion="0.2939068">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="32" selection-start="175" selection-end="185" vertical-scroll-proportion="0.18817204">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/karma.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="26" selection-start="726" selection-end="745" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="23" selection-start="2378" selection-end="2378" vertical-scroll-proportion="-17.083334">
+          <folding>
+            <element signature="e#6#72#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="0" selection-start="1143" selection-end="3610" vertical-scroll-proportion="-16.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/scripts/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="22" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/views/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="22" selection-start="264" selection-end="264" vertical-scroll-proportion="-4.375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/scripts/controllers/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="74" selection-start="110" selection-end="162" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/test/spec/controllers/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="5" selection-start="500" selection-end="500" vertical-scroll-proportion="0.5903399">
           <folding />
         </state>
       </provider>
