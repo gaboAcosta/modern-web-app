@@ -20,10 +20,11 @@
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
     <!-- build:css(.tmp) styles/main.css -->
-
+    <link rel="stylesheet" href="/app/bower_components/bootswatch/slate/bootstrap.css">
     <!-- endbuild -->
 </head>
 <body ng-app="mainApp">
+
     <!--[if lt IE 7]>
     <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
@@ -33,22 +34,74 @@
     <script src="/app/bower_components/json3/lib/json3.min.js"></script>
     <![endif]-->
 
+
+
     <!-- Add your site or application content here -->
-    <div class="container" ng-view=""></div>
+    <div class="container">
 
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
-    <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        <div class="row">
+            <div class="col-md-12">
+                <nav class="navbar navbar-default" role="navigation" >
 
-        ga('create', 'UA-XXXXX-X');
-        ga('send', 'pageview');
-    </script>
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+
+                        <button type="button" class="navbar-toggle" ng-init="navCollapsed = true" ng-click="navCollapsed = !navCollapsed">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#/" >Home</a>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" ng-class="!navCollapsed && 'in'">
+
+                        <ul class="nav navbar-nav">
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" > Users <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#/"> List Users </a></li>
+                                    <li><a href="#/"> Create User </a></li>
+                                </ul>
+                            </li>
+
+
+<!--                            <li class="dropdown">-->
+<!--                                <a href="#" class="dropdown-toggle" > Menu <b class="caret"></b></a>-->
+<!--                                <ul class="dropdown-menu">-->
+<!--                                    <li><a href="#/"> Submenu </a></li>-->
+<!--                                    <li><a href="#/"> Submenu </a></li>-->
+<!--                                </ul>-->
+<!--                            </li>-->
+<!--                            <li>-->
+<!--                                <a href="#/"> Link </a>-->
+<!--                            </li>-->
+<!--                            <li>-->
+<!--                                <a href="#/"> Link </a>-->
+<!--                            </li>-->
+
+
+
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </nav>
+            </div>
+
+        </div>
+
+        <div ng-view=""></div>
+
+    </div>
+
+
+
+
 
     <script src="/app/bower_components/jquery/jquery.js"></script>
     <script src="/app/bower_components/angular/angular.js"></script>
+    <script src="/app/bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
 
     <!-- build:js scripts/plugins.js -->
 
@@ -63,7 +116,19 @@
     <!-- build:js({.tmp,app}) scripts/scripts.js -->
     <script src="/app/scripts/app.js"></script>
     <script src="/app/scripts/controllers/main.js"></script>
+    <script src="/app/scripts/controllers/users.js"></script>
     <!-- endbuild -->
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-XXXXX-X');
+        ga('send', 'pageview');
+    </script>
 
 </body>
 </html>
