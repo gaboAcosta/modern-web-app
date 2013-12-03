@@ -24,6 +24,7 @@
     <!-- endbuild -->
 </head>
 <body ng-app="mainApp">
+
     <!--[if lt IE 7]>
     <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
@@ -34,6 +35,7 @@
     <![endif]-->
 
     <!-- Add your site or application content here -->
+
     <div class="container" ng-view=""></div>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
@@ -61,8 +63,8 @@
     <!-- endbuild -->
 
     <!-- build:js({.tmp,app}) scripts/scripts.js -->
-    <script src="/app/scripts/app.js"></script>
-    <script src="/app/scripts/controllers/main.js"></script>
+    <script src="/app/scripts/MainApp.js"></script>
+    <script src="/app/scripts/controllers/MainController.js"></script>
     <!-- endbuild -->
 
 </body>
