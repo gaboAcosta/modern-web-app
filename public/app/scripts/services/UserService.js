@@ -18,13 +18,3 @@ angular.module('mainApp')
     return User;
 
   });
-
-angular.module('mainApp').factory('PromocionService', function($resource) {
-  //Definimos las funciones para Crear, Borrar y Actualizar utilizando los valores de Laravel
-  var Promocion = $resource('/admin/user/:id',{id:'@id'},
-    {update: {method:'PUT', params:{id:'@id'}}});
-  Promocion.new = function(){
-    return new Promocion();
-  }
-  return Promocion;
-});
