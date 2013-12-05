@@ -64,7 +64,9 @@
 
     <!-- build:js({.tmp,app}) scripts/scripts.js -->
     <script src="/app/scripts/MainApp.js"></script>
+    <script src="/app/scripts/services/UserService.js"></script>
     <script src="/app/scripts/controllers/MainController.js"></script>
+    <script src="/app/scripts/controllers/UserController.js"></script>
     <!-- endbuild -->
 
 </body>
