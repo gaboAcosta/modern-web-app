@@ -67,8 +67,13 @@ describe('Service: UserService',function(){
     user.email = mockUser.email;
 
     httpBackend.expectPOST('/admin/user',user).respond(mockUser);
-    user.$save();
+    var response;
+    user.$save({},function(data){
+      response = data;
+    });
     httpBackend.flush();
+
+    expect(response.username).toBe(user.username);
   });
 
   it('should be able to edit a fetched user',function(){
@@ -80,18 +85,28 @@ describe('Service: UserService',function(){
     mockUser.email = user.email;
 
     httpBackend.expectPUT('/admin/user/'+user.id,user).respond(mockUser);
-    user.$update();
+    var response;
+    user.$update({id:user.id},function(data){
+      response = data;
+    });
     httpBackend.flush();
-
+    expect(response.username).toBe(user.username);
   });
 
   it('should be able to delete a fetched user',function(){
     var user = fetchUser();
+    var message = {message:'DELETE OK'};
 
+    httpBackend.expectDELETE('/admin/user/1').respond(message);
+    var deleteUser;
 
-    httpBackend.expectDELETE('/admin/user/1').respond({message:'DELETE OK'});
-    var deleteUser = user.$delete();
+    user.$delete({id:1},function(data){
+      deleteUser = data;
+    });
+
     httpBackend.flush();
+
+    expect(deleteUser.message).toBe(message.message);
 
   });
 

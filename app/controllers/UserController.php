@@ -28,6 +28,8 @@ class UserController extends BaseController {
 
         $this->user->email    = Input::get('email');
 
+        $this->user->setPassword(Input::get('password'));
+
         if($this->user->save()){
 
             return Response::json(
